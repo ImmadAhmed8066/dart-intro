@@ -1,0 +1,17 @@
+void main() {
+  int x = 30;
+  int y = 20;
+  bool greater, less, equal, not_equal, less_or_equal, greater_or_equal;
+  greater = x > y;
+  less = x < y;
+  equal = x == y;
+  not_equal = x != y;
+  less_or_equal = x <= y;
+  greater_or_equal = x >= y;
+  print(greater);
+  print(less);
+  print(equal);
+  print(not_equal);
+  print(less_or_equal);
+  print(greater_or_equal);
+}
