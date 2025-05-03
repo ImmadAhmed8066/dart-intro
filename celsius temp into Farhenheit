@@ -1,0 +1,8 @@
+import 'dart:io';
+
+void main() {
+  stdout.write("Enter Celsius Temp :");
+  double Ctemp = double.parse(stdin.readLineSync()!);
+  double Result = Ctemp * 9 / 5 + 32;
+  print("Celsius into Farhenheit : $Result");
+}
