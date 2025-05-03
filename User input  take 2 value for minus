@@ -1,0 +1,10 @@
+import 'dart:io';
+
+void main() {
+  stdout.write('ENter The first value :');
+  int First = int.parse(stdin.readLineSync()!);
+  stdout.write("Enter The Second value :");
+  int Second = int.parse(stdin.readLineSync()!);
+  int result = First - Second;
+  print('The Result :$result');
+}
