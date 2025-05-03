@@ -7,3 +7,4 @@ void main() {
   int Second = int.parse(stdin.readLineSync()!);
   int result = First * Second;
   print("Your Result is :$result");
+}
