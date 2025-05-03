@@ -1,0 +1,10 @@
+import 'dart:io';
+
+void main() {
+  stdout.write("Apka Name kia ha :");
+  String? name = stdin.readLineSync();
+  stdout.write("Apka Age kia ha :");
+  int? age = int.parse(stdin.readByteSync()!);
+  print("Apka Name ye ha : $name");
+  print("APki Age ha : $age ");
+}
