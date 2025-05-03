@@ -1,0 +1,12 @@
+void main() {
+  int x = 20;
+  int y = 30;
+  bool Andoperator, Oroperator, Notoperator;
+  Andoperator = (x > y && x < y);
+  Oroperator = (x > y || x < y);
+  Notoperator = !(x == y);
+
+  print(Andoperator);
+  print(Oroperator);
+  print(Notoperator);
+}
