@@ -1,0 +1,12 @@
+import 'dart:io';
+
+void main() {
+  stdout.write("Apki kia Age han ? :-");
+  int age = int.parse(stdin.readLineSync()!);
+
+  if (age >= 18) {
+    print("Ap vote da sakta han . ");
+  } else {
+    print("Apki Age abhi kam han .");
+  }
+}
