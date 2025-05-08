@@ -1,0 +1,18 @@
+import "dart:io";
+
+void main() {
+  stdout.write("print Enter your meter units :-");
+  int counsumedUnit = int.parse(stdin.readLineSync()!);
+  int Bill = 0;
+
+  if (counsumedUnit <= 100) {
+    Bill = counsumedUnit * 20;
+    print('your bill is :-$Bill');
+  } else if (counsumedUnit > 100 && counsumedUnit < 200) {
+    Bill = counsumedUnit * 30;
+    print("your bill is :- $Bill");
+  } else if (counsumedUnit > 300) {
+    Bill = counsumedUnit * 40;
+    print("your bill is :-$Bill");
+  }
+}
