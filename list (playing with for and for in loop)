@@ -1,0 +1,14 @@
+void main() {
+  List<String> PakiPlayers = ['immad', 'khan', 'uzair'];
+  PakiPlayers.add('fawad');
+  for (var i = 0; i < PakiPlayers.length; i++) {
+    print('${i + 1} ${PakiPlayers[i]}');
+  }
+   //for in loop ha ye 
+  for (var player in PakiPlayers) {
+    print(' $player');
+  }
+  
+}
+// dynmic_list
+// List immad = ['immad', 1];
