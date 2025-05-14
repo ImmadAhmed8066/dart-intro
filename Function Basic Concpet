@@ -1,0 +1,12 @@
+void immad() {
+  int i = 34;
+  int y = 45;
+  int sum = y + i;
+  print(sum);
+}
+
+void main() {
+  immad();
+  print("Pubg");
+  immad();
+}
