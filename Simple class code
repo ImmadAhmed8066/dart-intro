@@ -1,0 +1,30 @@
+void main() {
+  print("****     car 1      ******");
+  Car carsp = Car();
+  carsp.carColor = "balck";
+  carsp.carEngin = "1800cc";
+  carsp.carName = "bwm";
+  carsp.carSpeed = 170;
+  print("car color ${carsp.carColor}");
+  print("car Name ${carsp.carName}");
+  print("car Engin ${carsp.carEngin}");
+  print("car Speed ${carsp.carSpeed}");
+
+  print('******* car 2**********');
+  Car carsp1 = Car();
+  carsp1.carColor = "blue";
+  carsp1.carEngin = "2000";
+  carsp1.carName = "Maran";
+  carsp1.carSpeed = 120;
+  print("car color ${carsp1.carColor}");
+  print("car Name ${carsp1.carName}");
+  print("car Engin ${carsp1.carEngin}");
+  print("car Speed ${carsp1.carSpeed}");
+}
+
+class Car {
+  String? carColor;
+  String? carName;
+  int? carSpeed;
+  var carEngin;
+}
