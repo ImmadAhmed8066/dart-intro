@@ -1,0 +1,24 @@
+void main() {
+  var babaobj = new baba();
+  var khanobj = new khan();
+  khanobj.umer();
+  babaobj.umer();
+}
+
+abstract class immad {
+  void umer();
+}
+
+class khan extends immad {
+  @override
+  void umer() {
+    print("umber bhai cha pe lo");
+  }
+}
+
+class baba extends immad {
+  @override
+  void umer() {
+    print("Taken 8");
+  }
+}
