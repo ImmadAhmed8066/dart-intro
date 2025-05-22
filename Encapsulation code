@@ -1,0 +1,37 @@
+void main() {
+  Immad khan = new Immad();
+  khan.name = "kaka";
+  khan.age = 40;
+
+  print("apka name han ${khan.name}");
+  print("apka age ha ${khan.age}");
+}
+
+class Immad {
+  String? _name;
+  int? _age;
+
+  String get name {
+    return _name ?? "No Name";
+  }
+
+  int get age {
+    return _age ?? 0;
+  }
+
+  void set name(String newname) {
+    if (newname.length >= 3) {
+      _name = newname;
+    } else {
+      print("APka name wrong ha");
+    }
+  }
+
+  void set age(int newage) {
+    if (newage >= 3) {
+      _age = newage;
+    } else {
+      print("apka age kam han");
+    }
+  }
+}
